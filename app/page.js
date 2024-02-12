@@ -1,7 +1,7 @@
-import React from 'react'
-import MealsProvider from './MealsProvider';
-import MealsList from './MealsList';
-import Counter from './Counter';
+import React from "react";
+import MealsProvider from "./MealsProvider";
+import MealsList from "./MealsList";
+import Counter from "./Counter";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
         <Counter />
       </MealsProvider>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
